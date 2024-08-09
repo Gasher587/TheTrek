@@ -37,6 +37,6 @@ public class ControlsManager : MonoBehaviour
 
     public Vector2 getLook()
     {
-        return move.ReadValue<Vector2>();
+        return look.ReadValue<Vector2>();
     }
 }
