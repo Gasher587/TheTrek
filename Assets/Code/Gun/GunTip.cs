@@ -21,7 +21,7 @@ public class GunTip : MonoBehaviour
         if (quickfire)
         {
             quickfire = false;
-            Fire()
+            Fire();
         }
     }
 
