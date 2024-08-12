@@ -20,7 +20,7 @@ public class RepeatingChamber : MonoBehaviour
     void Update()
     {
         if (fire){
-            Instantiate(cannonShell, cannonTip.transform.position, Quaternion.identity);
+            Instantiate(cannonShell, cannonTip.transform.position, cannonTip.transform.rotation);
             timer = firerate;
             fire = false;
         };

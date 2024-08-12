@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 502377843918198413}
   - component: {fileID: 7758149327842353408}
   - component: {fileID: 5777284749222956136}
-  - component: {fileID: 7757968978501808893}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -106,19 +105,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7757968978501808893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2766736097507809743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d37490c549bd9374bb715208dcd2b2ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSpeed: 2
 --- !u!1 &8784386889882120622
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,8 +114,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8659647725846868458}
+  - component: {fileID: 8618543706496394890}
   m_Layer: 0
-  m_Name: CannonShell
+  m_Name: TestShell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,3 +138,16 @@ Transform:
   - {fileID: 2145666636513676460}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8618543706496394890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784386889882120622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37490c549bd9374bb715208dcd2b2ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpeed: 4
