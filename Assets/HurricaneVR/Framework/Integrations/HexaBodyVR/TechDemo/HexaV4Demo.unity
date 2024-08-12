@@ -21518,6 +21518,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1865187258}
     m_Modifications:
+    - target: {fileID: 7880374880145554794, guid: 524eedae73dd3d545b15fbceb728e2bf, type: 3}
+      propertyPath: RaycastLayermask.m_Bits
+      value: 1048577
+      objectReference: {fileID: 0}
     - target: {fileID: 8560143638468229796, guid: 524eedae73dd3d545b15fbceb728e2bf, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.29200003
@@ -21593,6 +21597,10 @@ PrefabInstance:
     - target: {fileID: 8560143638724017132, guid: 524eedae73dd3d545b15fbceb728e2bf, type: 3}
       propertyPath: EnableDebugCalibrationButton
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8886458697902310693, guid: 524eedae73dd3d545b15fbceb728e2bf, type: 3}
+      propertyPath: RaycastLayermask.m_Bits
+      value: 1048577
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
